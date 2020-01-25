@@ -25,6 +25,11 @@ p{
 	text-align: center;
 }
 
+.simple-text{
+  margin: 0 15%;
+  text-align: left;
+}
+
 .categories{
 	padding: 0 15%;
 }
