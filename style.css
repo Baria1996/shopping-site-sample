@@ -1,0 +1,137 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 3%;
+	color: #E01717;
+}
+
+h2{
+	border-bottom: 2px solid #E1E4E6;
+	margin: 10% 15% 5% 15%;
+	padding-bottom: 2%;
+}
+
+h3{
+	text-align: center;
+}
+
+p{
+
+	text-align: center;
+}
+
+.categories{
+	padding: 0 15%;
+}
+
+.categories a{
+	text-decoration: none;
+	color: #666;
+}
+
+.item{
+	border: 2px solid #E1E4E6;
+	border-radius: 5px;
+	padding: 3% 1%;
+	width: 20%;
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 100px;
+}
+
+.description{
+  padding: 5% 15%;
+}
+
+.description img{
+  float: left;
+  height: 200px;
+}
+
+.description .info{
+  float: left;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.info h3{
+  margin: 0;
+}
+
+.info p{
+  text-align: left;
+}
+
+/*nav bar styling*/
+
+nav{
+  box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.55);
+  margin-bottom: 5%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav ul a {
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #E01717;
+}
+
+nav .search-container {
+  float: right;
+}
+
+nav input[type=text] {
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 2px solid #E1E4E6;
+  border-radius: 5px 0 0 5px;
+}
+
+nav .search-container button {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  float: right;
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.logo{
+  float: left;
+  padding: 13px 16px;
+  color: #E01717;
+  font-size: 1.5em;
+  font-weight: bold;
+}
