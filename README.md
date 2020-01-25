@@ -1,2 +1,2 @@
 # Shopping website sample
-contains simple HTML and CSS
+Contains simple HTML and CSS
