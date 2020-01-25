@@ -1,1 +1,1 @@
-# shopping-site-sample
+# Simple HTML and CSS
